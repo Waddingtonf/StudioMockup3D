@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("image/DgjKvd7.png");
+    background-repeat: repeat-y;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    list-style: none;
+}
+
+#headercomp{
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    list-style: none;
+}
+
+#linha{
+    border-bottom: 1px solid #E2AC24;
+}
+
+/* BG */
+
+#logo_header{
+    width: 4.37rem;
+    height: 4.37rem;
+    margin-left: 9.38rem;
+    margin-top: 0.5rem;
+    flex-direction: row;
+    list-style: none;
+}
+
+/* produtos */
+
+#produtos{
+    right: 50rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#produtos a:active{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos{
+    right: 41rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#servicos a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#estampa{
+    right: 23rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#estampa a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#contato{
+    right: 11rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#contato a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:link{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+
+.right-side-menu{
+    align-items: center;
+}
+
+.object{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap:18px;
+    padding: 5% 5%;
+
+}
+
+.caneca{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    width: fit-content;
+}
+.camisa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+}
+.ecobag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center
+}
+
+
+
+.select-imge{
+    display: inline-block;
+    width: center;
+    height: 38vw;
+    max-width: 400px;
+    margin: auto;
+}
+
+.caneca-imge img{
+    width: 300px;
+}
+.camisa-imge img{
+    width: 300px;
+}
+.ecobag-imge img{
+    width: 300px;
+}
+
+.thumbnails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0vh;
+    max-width: 500%;
+    margin: auto;
+}
+
+.thumbnail img{
+    width: 100%;
+}

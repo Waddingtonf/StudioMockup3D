@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kunbh Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("image/DgjKvd7.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    list-style: none;
+}
+
+#headercomp{
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    list-style: none;
+}
+
+#linha{
+    border-bottom: 1px solid #E2AC24;
+}
+
+/* BG */
+
+#logo_header{
+    width: 4.37rem;
+    height: 4.37rem;
+    margin-left: 9.38rem;
+    margin-top: 0.5rem;
+    flex-direction: row;
+    list-style: none;
+}
+
+/* produtos */
+
+#produtos{
+    right: 50rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#produtos a:active{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos{
+    right: 41rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#servicos a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#estampa{
+    right: 23rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#estampa a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#contato{
+    right: 11rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#contato a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:link{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+.campo a{
+	padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	width: 400px;
+    height: 50px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #2F2325;
+	background-color: white;
+	cursor: pointer;
+    box-shadow: 0 0 5px #000;
+    margin-left: 35%;
+
+}
+
+.campo a:active {
+    color:#2F2325;
+    text-decoration: none;
+}
+
+.campo a:visited{
+    color:#2F2325;
+    text-decoration: none;
+}
+
+.campo a:link{
+    color:#2F2325;
+    text-decoration: none;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center; /*flex-end*/
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+    gap: 7px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.itens{
+    align-self: flex-start;
+}
+
+.select-imge{
+    max-width: 400px;
+}
+
+.select-imge img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.thumbnails{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    gap: 7px;
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rigth-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.content h6{
+    color:rgb(255, 225, 52);
+}
+
+.content h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.content p{
+    color: hsl(219, 9%, 55%);
+    font-size: 14px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    color:rgb(255, 225, 52);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.off{
+    font-size: 12px;
+    color:rgb(100, 100, 100);
+}
+
+.options{
+    display: flex;
+    gap:7px;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    gap:27px;
+    background-color: hsl(219,9%,45%);
+    padding: 10px, 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.amount span{
+    font-weight: 700;
+    font-size: 12px;
+}
+.amount img{
+    width: 30px;
+    height: 30px;
+}
+
+.minus{
+    cursor: pointer;
+}
+.plus{
+    cursor: pointer;
+}
+
+
+.button{
+    display:inline-flex;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 225, 52);
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.button2{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(255, 225, 52);
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.button img{
+    width: 14px;
+}
+
+.button2 img{
+    width: 19px;
+}
+

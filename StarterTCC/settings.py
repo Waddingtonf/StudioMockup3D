@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +25,8 @@ SECRET_KEY = 'django-insecure-a6dalfjw7&1s6qe$1=+8x0kt#k415w*n#7%(^n9v*0d$(9!l@*
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+CSRF_TRUSTED_ORIGINS = ['https://studiomockup3d.up.railway.app']
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'studio3dmockup.pythonanywhere.com', 'api.mediamodifier.com']
 
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'    ,
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -93,10 +95,21 @@ DATABASES = {
         'NAME': 'tccfinal_bd',
         'USER': 'uodditu',
         'PASSWORD': '132489Ab',
-        'HOST': 'db4free.net',   # Or an IP Address that your DB is hosted on
+        'HOST': 'containers-us-west-134.railway.app',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'bdtcc',
+#         'USER': 'root',
+#         'PASSWORD': 'wK050885',
+#         'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
+#         'PORT': '3306',
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
@@ -152,13 +165,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles/'
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-django_heroku.settings(locals())

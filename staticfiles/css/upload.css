@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("image/DgjKvd7.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    list-style: none;
+}
+
+#headercomp{
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    list-style: none;
+}
+
+#linha{
+    border-bottom: 1px solid #E2AC24;
+}
+
+/* BG */
+
+#logo_header{
+    width: 4.37rem;
+    height: 4.37rem;
+    margin-left: 9.38rem;
+    margin-top: 0.5rem;
+    flex-direction: row;
+    list-style: none;
+}
+
+/* produtos */
+
+#produtos{
+    right: 50rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#produtos a:active{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#produtos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos{
+    right: 41rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#servicos a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#servicos a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#estampa{
+    right: 23rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#estampa a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#estampa a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#contato{
+    right: 11rem;
+    top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E2AC24;
+    flex-direction: row;
+    position: absolute;
+    list-style: none;
+}
+
+#contato a:active {
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:visited{
+    color:#E2AC24;
+    text-decoration: none;
+}
+
+#contato a:link{
+    color:#E2AC24;
+    text-decoration: none;
+
+}
+
+#container{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    padding: 60px 0;
+    border-radius: 20px;
+    border: none;
+    background-image: url("./image/DgjKvd7.png");
+}
+.campo input:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 10px;
+	width: 400px;
+    height: 50px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #2F2325;
+	background-color: #E2AC24;
+	cursor: pointer;
+    box-shadow: 0 0 5px #000;
+    margin: 10px
+}
+
+
+.campo input:nth-child(2){
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 400px;
+    height: 50px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #2F2325;
+	background-color: #E2AC24;
+	cursor: pointer;
+    box-shadow: 0 0 5px #000;
+    margin: 0px;
+
+}
+
+.campo a{
+	padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 400px;
+    height: 15px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #2F2325;
+	background-color: white;
+	cursor: pointer;
+    box-shadow: 0 0 5px #000;
+    margin: 0px;
+
+}
+
+.campo a:active {
+    color:#2F2325;
+    text-decoration: none;
+}
+
+.campo a:visited{
+    color:#2F2325;
+    text-decoration: none;
+}
+
+.campo a:link{
+    color:#2F2325;
+    text-decoration: none;
+
+}
+
+#enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 400px;
+    height: 30px;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #2F2325;
+	background-color: #E2AC24;
+	cursor: pointer;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+.forms-nome{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.campo{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#images{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#images:nth-child(1){
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+#images:nth-child(2){
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+#images:nth-child(3){
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+#images:nth-child(4){
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+#images:nth-child(5){
+    display:flex;
+    flex-direction: center;
+    justify-content:center;
+    align-items:center;
+}
+#images:nth-child(6){
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+

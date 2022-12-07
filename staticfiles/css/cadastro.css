@@ -1,0 +1,10 @@
+* {
+    margin:0;
+    padding:0;
+    gap:0;
+}
+
+body{
+    background-image: url("image/bg-site-v4.png");
+    background-repeat: repeat-y;
+}
